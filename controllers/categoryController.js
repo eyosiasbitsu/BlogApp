@@ -70,7 +70,6 @@ const updateCategory = async (req, res) => {
     }
 };
 
-// this gets id of a bloger and deletes all of the blogs he posted
 const deleteAllCategories = async (req, res) => {
     const { id } = req.params;
 
